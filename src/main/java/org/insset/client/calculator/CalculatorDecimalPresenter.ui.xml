@@ -7,22 +7,6 @@
     <h1>Projet de mise en pratique Scrum</h1>       
     <div class="bs-section">
         <g:FlowPanel>
-            <g:FlowPanel>
-                <g:Label>Quelle valeur voulez-vous convertir en decimal</g:Label>
-            </g:FlowPanel>
-            <g:FlowPanel>          
-              <g:TextBox ui:field="valR" text="Entrer une valeur"/>
-              <g:SubmitButton ui:field="boutonConvertRToA" text="Convertir"/>
-            </g:FlowPanel>
-            <g:FlowPanel>
-                <g:Label ui:field="errorLabelRToA" ></g:Label>
-            </g:FlowPanel>
-            <g:FlowPanel >
-                
-                <g:ResetButton ui:field="boutonClearR" text="Clear"/>
-            </g:FlowPanel>
-        </g:FlowPanel>
-        <g:FlowPanel>
         </g:FlowPanel>
         <g:FlowPanel>
             <g:FlowPanel>
@@ -38,6 +22,22 @@
             <g:FlowPanel>
                 
                 <g:ResetButton ui:field="boutonClearA" text="Clear"/>
+            </g:FlowPanel>
+        </g:FlowPanel>
+                <g:FlowPanel>
+            <g:FlowPanel>
+                <g:Label>Quelle valeur voulez-vous convertir en decimal</g:Label>
+            </g:FlowPanel>
+            <g:FlowPanel>          
+              <g:TextBox ui:field="valR" text="Entrer une valeur"/>
+              <g:SubmitButton ui:field="boutonConvertRToA" text="Convertir"/>
+            </g:FlowPanel>
+            <g:FlowPanel>
+                <g:Label ui:field="errorLabelRToA" ></g:Label>
+            </g:FlowPanel>
+            <g:FlowPanel >
+                
+                <g:ResetButton ui:field="boutonClearR" text="Clear"/>
             </g:FlowPanel>
         </g:FlowPanel>
         <g:FlowPanel>

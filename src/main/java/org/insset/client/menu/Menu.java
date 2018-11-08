@@ -36,7 +36,7 @@ public class Menu extends Composite {
      */
     @UiField
     public MenuItem romain;
-
+    
     interface MenuUiBinder extends UiBinder<HTMLPanel, Menu> {
     }
 
