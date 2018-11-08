@@ -29,9 +29,7 @@ public class HistoryListener implements ValueChangeHandler<String> {
         //Accès a la page d'exemple
         if (event.getValue().equals("exemple")) {
             RootPanel.get().clear();
-            RootPanel.get().add(new ExemplePresenter());
         }
-
         //Accès a la page pourcentage
         //Add your code 
     }
